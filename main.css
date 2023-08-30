@@ -1,3 +1,17 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 1440px;
+    /* margin: auto; */
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+}
+
 h1{
     color: blue;
     text-align: center;
@@ -11,3 +25,12 @@ h2{
 }
 
 
+.branch-main {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 20px;
+}
