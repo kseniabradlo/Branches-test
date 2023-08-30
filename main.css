@@ -34,3 +34,18 @@ h2{
     border: 1px solid black;
     margin-top: 20px;
 }
+
+h3{
+    margin-top: 60px;
+}
+
+.button{
+    background-color: rgb(56, 56, 131);
+    border-radius: 8px;
+    padding: 0px 80px;
+    color: white;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    width: fit-content;
+}
