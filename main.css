@@ -49,3 +49,36 @@ h3{
     font-size: large;
     width: fit-content;
 }
+
+footer{
+    background-color: rgb(137, 153, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 30px;
+    margin-top: 40px;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+footer nav a{
+    text-decoration: none;
+    color:  rgb(56, 56, 131);
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 8px;
+    width: 20%;
+text-align: center;
+}
+
+footer nav a:hover{
+    background-color: rgb(56, 56, 131);
+    color: white;
+}
